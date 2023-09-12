@@ -76,3 +76,25 @@ width: 100%;
     font-weight: 400;
     line-height: normal;
 }
+
+.descricao{
+    width: 11em;
+    gap: 9px;
+}
+
+.botoes_ancora{
+    background-color: var(--laranja);
+    width: 161px;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--branco);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
