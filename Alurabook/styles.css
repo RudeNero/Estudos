@@ -13,8 +13,10 @@
     --azulgradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --poppins:'Poppins', sans-serif;
     --azul: #002F52;
-    
-
+    --josefin: 'Josefin Sans', sans-serif;
+    --preto: #000;
+    --cinza: #474646;
+    --cinza-titulo: #858585;
 }
 
 body {

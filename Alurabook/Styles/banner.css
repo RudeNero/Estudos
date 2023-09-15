@@ -58,3 +58,16 @@
     
     
 }
+
+
+/* ------------ Layout 1024px ------------*/
+@media screen and (min-width: 1024px){
+
+    .banner_titulo{
+        font-size: 36px;
+    }
+
+
+
+
+}

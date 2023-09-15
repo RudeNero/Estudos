@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 
 .cabeçalho__menu_hamburguer{
@@ -21,10 +22,18 @@
 .container{
     display: flex;
     align-items: center;
+    
+    
 }
 
-.container_imagem{
+.container_imagem, .container_imagem-fav, .container_imagem-ph{
     padding: 1em;
+}
+
+.container_imagem-ph{
+    
+    width: 40px;
+    height: 40px;
 
 }
 
@@ -69,4 +78,65 @@
 
 .container_botao{
     display: none;
+}
+
+.container_titulo{
+    display: none;
+}
+
+.opçoes{
+    display: none;
+}
+
+/* ------------ Layout 1024px ------------*/
+
+@media screen and (min-width: 1024px){
+
+.container_titulo, .container_titulo-negrito{
+    font-family: var(--josefin);
+    font-size: 30px;
+}
+
+.container_titulo{
+    font-weight: 400;
+    display: block;
+}
+
+.container_titulo-negrito{
+    font-weight: 700;
+}
+
+.opçoes{
+    display: flex;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+}
+
+.opçoes_item{
+    padding: 0 1em;
+
+}
+
+.opçoes_link{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.container_imagem-fav{
+    display: none !important;
+}
+
+.cabeçalho__menu_hamburguer{
+    display: none;
+}
+
+.opçoes_botao:checked ~.lista_menu{
+    display: block;
+    width: auto;
+        
+}
+
+.opçoes_botao{
+    display: none;
+}
 }
