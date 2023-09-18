@@ -51,9 +51,15 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img src="./assets/Favoritos.svg" class="container_imagem container_imagem-fav"></a>
-            <a href="#"><img src="./assets/Compras.svg" class="container_imagem"></a>
-            <a href="#"><img src="./assets/Usuário.svg" class="container_imagem"></a>
+            <a href="#">
+                <img src="./assets/Favoritos.svg" class="container_imagem container_imagem-fav">
+            </a>
+            <a href="#" class="container_link">
+                <img src="./assets/Compras.svg" class="container_imagem"><p class="container_texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container_link">
+                <img src="./assets/Usuário.svg" class="container_imagem"><p class="container_texto">Meu Perfil</p>
+            </a>
         </div>
 
 
@@ -69,7 +75,7 @@
     <section class="carrossel">
         <h2 class="carrossel_titulo">lançamentos</h2>
         <!-- Slider main container -->
-
+        <div class="carrossel_container">
         <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -114,11 +120,12 @@
                 <a href="#" class="botoes_ancora">Saiba Mais!</a>
             </div>
         </div>
+    </div>
         <!------------------------- Começo da segunda parte----------------------->
         <section class="carrossel">
             <h2 class="carrossel_titulo">Mais vendidos</h2>
             <!-- Slider main container -->
-
+            <div class="carrossel_container">
             <div class="swiper">
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
@@ -159,7 +166,7 @@
                     <a href="#" class="botoes_ancora">Saiba Mais!</a>
                 </div>
             </div>
-
+         </div>
         </section>
         <section class="topicos">
             <h2 class="topicos_titulo">tópicos visitados recentemente</h2>

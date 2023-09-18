@@ -71,3 +71,15 @@
 
 
 }
+
+/* ------------ Layout 1728px ------------*/
+
+@media screen and (min-width : 1728px){
+    .banner_busca{
+    width: 45%;
+        }
+    .banner_busca::placeholder{
+        background-position: 19em;
+    }
+    
+}
