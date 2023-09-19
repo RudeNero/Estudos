@@ -119,6 +119,7 @@ width: 100%;
     .swiper-button-prev, .swiper-button-next{
         display: block !important;
         top: 55% !important;
+        
     }
 
     .card{
